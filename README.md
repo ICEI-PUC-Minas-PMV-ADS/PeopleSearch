@@ -1,23 +1,24 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`ANALISE E DESENVOLVIMENTO DE SISTEMAS - PUC MINAS VIRTUAL`
 
-`DISCIPLINA`
+`DESENVOLVIMENTO BACK-END`
 
-`SEMESTRE`
+`2º EIXO`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Nosso projeto é focado na interação humana. Buscamos criar um meio de contato para que as pessoas se encontrem para fazer o que quiserem!. Atualmente estamos focando
+na interação via internet, mais precisa na área de games, mas futuramente queremos expandir para todas as áreas.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* César Pereira dos Santos Filho
+* Alexandre Magalhães Ribeiro
+* Ester  
+* Diogo
 
 ## Orientador
 
-* Nome completo do professor 1
+* Viviane Cristina Dias
 
 ## Instruções de utilização
 
