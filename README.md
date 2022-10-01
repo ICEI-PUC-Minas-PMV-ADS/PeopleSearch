@@ -11,10 +11,12 @@ na interação via internet, mais precisa na área de games, mas futuramente que
 
 ## Integrantes
 
-* César Pereira dos Santos Filho
 * Alexandre Magalhães Ribeiro
-* Ester  
-* Diogo
+* Alípio Luís Avelar Vieira
+* Bruna Ester Rolim Rocha
+* Cesar Pereira dos Santos Filho
+* Diego Alberto Sobrinho 
+* Flávio Amaral Lopes
 
 ## Orientador
 
