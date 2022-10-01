@@ -1,7 +1,7 @@
 # Introdução
 
 A comunidade gamer no Brasil tem crescido drasticamente nos últimos anos, fazendo com que, segundo pesquisas, sejamos o 15º país no ranking de consumo de games digitais. Devido a essa grande popularidade cada vez mais os games se tornaram uma forma de comunicação entre os jogadores.
-Apesar de os games terem um meio de comunicação via chat em game e fora dele, ainda sim a comunicação para criação de times é muito limitada.
+Apesar de os games terem um meio de comunicação via chat em game e fora dele, ainda sim a comunicação para criação de times é muito limitada..
 
 
 ## Problema
