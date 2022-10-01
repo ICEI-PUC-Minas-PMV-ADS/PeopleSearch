@@ -2,25 +2,20 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foram consolidados com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Rafaela Alves Guimarães tem 30 anos, é empreendedora e dona de uma startup de sucesso que atua na área de crowdfunding. Gosta de agilizar e facilitar processos além da vida profissional. Precisa de momentos de descontração devido aos desgastes advindos do trabalho. Já se envolveu em assuntos não desejados, pela necessidade de se socializar, mas sem saber a motivação das pessoas que procurou. Não possui familiares e tem uma rotina cansativa de trabalho. Quase nunca consegue sair aos finais de semana. Para ela, esses momentos devem ser o menos desgastante possível.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Fernando Almeida tem 26 anos, é estudante de Engenharia de Software e estagiário de uma empresa que atua na criação de games. Tem seu mindset voltado para automatização de processos em detrimento de processos manuais e demorados. Já possui contato direto com a área da tecnologia e acredita que ela seja uma facilitadora de diversas situações na vida dos indivíduos. Seus amigos são de outras áreas, com isso ele não consegue um bom bate papo sobre o assunto que ele realmente gosta de conversar. É uma pessoa extremamente criativa e prática. Gostaria que cada vez mais a tecnologia fosse utilizada no dia-a-dia com o intuito, principalmente, de democratizar, disponibilizar informações e acelerar processos a partir de soluções inteligentes.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Luiz Gonçalves tem 43 anos, é garçom e tem contato com vários tipos de pessoas de diversos lugares diferentes e conversa sobre vários temas distintos. Por várias vezes foi mal interpretado quando se aproximou e puxou papo. Trabalha como garçom há mais de 10 anos e tem que ser gentil e agradável para que seu trabalho seja bem aceito, mas sem se aproximar muito.
+
+Marisa Bastos tem 56 anos, é coach. Tem como motivações o maior retorno financeiro e ter acesso a pessoas e ser direcionada ás necessidades de acordo com o tema do bate papo. Tem como frustações a procura de clientes e vários feedbacks. Ela administra sua agência sempre prezando por alternativas atrativas  e facilitadoras para seus clientes.
+
+
+
 
 ## Histórias de Usuários
 

@@ -1,48 +1,37 @@
 # Introdução
 
 A comunidade gamer no Brasil tem crescido drasticamente nos últimos anos, fazendo com que, segundo pesquisas, sejamos o 15º país no ranking de consumo de games digitais. Devido a essa grande popularidade cada vez mais os games se tornaram uma forma de comunicação entre os jogadores.
-Apesar de os games terem um meio de comunicação via chat em game e fora dele, ainda sim a comunicação para criação de times é muito limitada..
+Apesar de os games terem um meio de comunicação via chat em game e fora dele, ainda sim a comunicação para criação de times é muito limitada.
 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Recentemente percebe-se que apesar de viver na era da tecnologia – com facilidade de alcance entre pessoas, ainda assim enfrenta problemas em achar conexões. A dificuldade de formar um grupo de pessoas com o mesmo interesse perde-se nas milhares de informações da internet e o simples ato de, por exemplo, formar um time de jogo ou encontrar fãs da mesma série de TV gera um amplo desgaste de tempo.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
+<<<<<<< HEAD
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+=======
+>>>>>>> eb8a49e4eaf54c98d2043ee54785de16a77e42b0
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+O objetivo deste projeto é o desenvolvimento de um site que possibilite a interação entre pessoas com vários objetivos, objetivos esse que podem ser: amizade, troca de experiência profissional, aprendizado, lazer, entre outros.
+Como objetivo específico, podemos destacar:
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Fornecer de forma agradável e interativa o acesso a salas de bate papo, onde pessoas estejam se relacionando em temas que lhe agrade.
+Possibilitar salas com alguns interesses pré-definidos, e também a possibilidade de criar salas com termos próprios, onde o usuário poderá navegar entre as possibilidades e escolher melhor a que se adequa ao seu perfil.
+Possibilitar que pessoas consigam localizar outras para dividirem momentos/experiências, desta forma facilitando a convivência em grupos.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Nos dias de hoje, o maior patrimônio que temos é o tempo. Com isso, partes importantes das nossas vidas acabam ficando esquecidas, como fazer amigos. No entanto, a Amizade é um dos maiores bens que podemos ter. Amigos é um fator essencial para o nosso desenvolvimento pessoal e profissional, pois é com pessoas que se trocam experiências (IBND, 2021).
+Frente a uma realidade tão nociva, que impacta profundamente em nossa capacidade de nos socializarmos, a tecnologia se incumbe em sanar mais esse dano. As redes sociais fomentam atividades, ou seja, ela aproxima pessoas, pois elimina a barreira da distância geográfica (NIC.BR, 2022). 
+Desta forma, as principais tecnologias voltadas para a gestão de relacionamentos visam colaborar, com: aprendizado, alfabetização, saúde mental, entre outras. Otimizar esse processo de seleção de temas para a socialização se faz indispensável, visto que hoje o tempo se tornou escasso. . (INTERNET MATTERS).
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O site se destinará a qualquer usuário que queira e goste de integrações como hoobye e profisionalmente, sem limitação de idade, sexo ou regionalidade.
+Como público alvo, destacam-se homens e mulheres de 16 a 50 anos, que possuem interesses diversos, compartilhamentos de ideias e estratégias, afinidade com os meios digitais e queiram trilhar caminhos profissionalmente ou até mesmo como amadores.
