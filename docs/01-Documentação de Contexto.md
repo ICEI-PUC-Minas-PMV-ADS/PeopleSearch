@@ -1,13 +1,12 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A comunidade gamer no Brasil tem crescido drasticamente nos últimos anos, fazendo com que, segundo pesquisas, sejamos o 15º país no ranking de consumo de games digitais. Devido a essa grande popularidade cada vez mais os games se tornaram uma forma de comunicação entre os jogadores.
+Apesar de os games terem um meio de comunicação via chat em game e fora dele, ainda sim a comunicação para criação de times é muito limitada.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Recentemente percebe-se que apesar de viver na era da tecnologia – com facilidade de alcance entre pessoas, ainda assim enfrenta problemas em achar conexões. A dificuldade de formar um grupo de pessoas com o mesmo interesse perde-se nas milhares de informações da internet e o simples ato de, por exemplo, formar um time de jogo ou encontrar fãs da mesma série de TV gera um amplo desgaste de tempo.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
