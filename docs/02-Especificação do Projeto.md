@@ -21,18 +21,11 @@ A fim de buscar mais informações sobre os motivos e causas de uso dessas pesso
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Rafaela A. Guimarães| Um site onde possa achar pessoas com o mesmo interesse em moda que eu| Consumir mais conteúdo de moda             |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Rafaela A. Guimarães| Um site onde possa achar pessoas com o mesmo interesse em moda que eu.| Consumir mais conteúdo de moda             |
+|Fernando Almeida    | Formar um time para jogos.         | Gosto de jogar nas distrações do dia a dia. |
+|Marisa Bastos       | Um amigo(a) para assistir em grupo, programas de culinária.| Construir laços com o mesmo interesse.|
+|Luiz Gonçalves      | Encontrar pessoas que são fãs de sua banda favorita.| Encontrar pessoas que são fãs de sua banda favorita. |
 
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
