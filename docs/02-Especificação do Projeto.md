@@ -21,9 +21,7 @@ A fim de buscar mais informações sobre os motivos e causas de uso dessas pesso
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Rafaela A. Guimarães| Um site onde eu possa achar pessoas com o mesmo interesse em moda que eu
-
-        | Consumir mais conteúdo de moda             |
+|Rafaela A. Guimarães| Um site onde possa achar pessoas com o mesmo interesse em moda que eu| Consumir mais conteúdo de moda             |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
