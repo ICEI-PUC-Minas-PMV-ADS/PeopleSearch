@@ -3,18 +3,9 @@
 A comunidade gamer no Brasil tem crescido drasticamente nos últimos anos, fazendo com que, segundo pesquisas, sejamos o 15º país no ranking de consumo de games digitais. Devido a essa grande popularidade cada vez mais os games se tornaram uma forma de comunicação entre os jogadores.
 Apesar de os games terem um meio de comunicação via chat em game e fora dele, ainda sim a comunicação para criação de times é muito limitada.
 
-
 ## Problema
 
 Recentemente percebe-se que apesar de viver na era da tecnologia – com facilidade de alcance entre pessoas, ainda assim enfrenta problemas em achar conexões. A dificuldade de formar um grupo de pessoas com o mesmo interesse perde-se nas milhares de informações da internet e o simples ato de, por exemplo, formar um time de jogo ou encontrar fãs da mesma série de TV gera um amplo desgaste de tempo.
-
-<<<<<<< HEAD
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-=======
->>>>>>> eb8a49e4eaf54c98d2043ee54785de16a77e42b0
 
 ## Objetivos
 
@@ -24,6 +15,7 @@ Como objetivo específico, podemos destacar:
 Fornecer de forma agradável e interativa o acesso a salas de bate papo, onde pessoas estejam se relacionando em temas que lhe agrade.
 Possibilitar salas com alguns interesses pré-definidos, e também a possibilidade de criar salas com termos próprios, onde o usuário poderá navegar entre as possibilidades e escolher melhor a que se adequa ao seu perfil.
 Possibilitar que pessoas consigam localizar outras para dividirem momentos/experiências, desta forma facilitando a convivência em grupos.
+
 
 ## Justificativa
 
