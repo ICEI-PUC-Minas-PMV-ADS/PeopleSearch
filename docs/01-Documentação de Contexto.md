@@ -1,11 +1,12 @@
 # Introdução
 
-A comunidade gamer no Brasil tem crescido drasticamente nos últimos anos, fazendo com que, segundo pesquisas, sejamos o 15º país no ranking de consumo de games digitais. Devido a essa grande popularidade cada vez mais os games se tornaram uma forma de comunicação entre os jogadores.
-Apesar de os games terem um meio de comunicação via chat em game e fora dele, ainda sim a comunicação para criação de times é muito limitada.
+Com a pandemia, somente em 2020 o Brasil ganhou mais de 13 milhões de novos clientes de e-commerce, segundo levantamento Ebit/Nielsen, fazendo com  que o número de adeptos chegue a aproximadamente 80 milhões de clientes. Em 2021, segundo um estudo da IDC Brasil, a venda de computadores aumentou cerca de 17%, e isso está relacionado ao Home Office e ao Ensino a Distância(EAD). 
+Mas com a chegada da pandemia, novos problemas acabam surgindo, como a ansiedade e a depressão. Segundo um estudo publicado pela OMS em março de 2022, no primeiro ano da pandemia, a prevalência global de ansiedade e depressão aumentou em 25% devido ao isolamento social. 
+E mesmo com esse aumento de informação, a dificuldade de encontrar um espaço para encontrar pessoas com os mesmos interesses persiste, fazendo com que pessoas recorram a redes sociais para tentar suprir essa necessidade, nem sempre tendo êxito. 
 
 ## Problema
 
-Recentemente percebe-se que apesar de viver na era da tecnologia – com facilidade de alcance entre pessoas, ainda assim enfrenta problemas em achar conexões. A dificuldade de formar um grupo de pessoas com o mesmo interesse perde-se nas milhares de informações da internet e o simples ato de, por exemplo, formar um time de jogo ou encontrar fãs da mesma série de TV gera um amplo desgaste de tempo.
+Recentemente percebe-se que apesar de viver na era da tecnologia, com facilidade de alcance entre pessoas, ainda assim enfrenta problemas em achar conexões. A dificuldade de formar um grupo de pessoas com o mesmo interesse perde-se nas milhares de informações da internet e o simples ato de, por exemplo, formar um time de jogo ou encontrar fãs da mesma série de TV gera um amplo desgaste de tempo.
 
 ## Objetivos
 
