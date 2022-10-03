@@ -76,6 +76,4 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 ## Diagrama de Casos de Uso
 
-O diagrama contempla as principais ligações previstas entre casos de uso e atores e permite detalhar os Requisitos Funcionais identificados na etapa de elicitação, como segue na figura X abaixo: 
-
-<img src="componentes.png" alt="some text" width=60 height=40>
+O diagrama contempla as principais ligações previstas entre casos de uso e atores e permite detalhar os Requisitos Funcionais identificados na etapa de elicitação, como segue na figura anexa. 
