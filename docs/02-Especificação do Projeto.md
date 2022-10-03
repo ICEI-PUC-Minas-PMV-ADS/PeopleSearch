@@ -49,10 +49,19 @@ Os propósitos funcionais da plataforma serão denotados por intermédio da apre
 
 ### Requisitos não Funcionais
 
+Já os requisitos não funcionais não estão relacionados diretamente com os serviços específicos do sistema oferecidos aos seus usuários. Eles estão relacionados com o nível de serviço esperado para o melhor funcionamento do software como um todo. 
+O descritivo abaixo representa o escopo não funcional que a plataforma atenderá. 
+
+
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O Site deve ser estruturado de forma a facilitar a utilização por pessoas de quaisquer idades. | ALTA | 
+|RNF-002| O Site deve conter tags auxiliares em quaisquer imagens, vídeos e componentes visuais, a fim de permitir a utilização de leitores para pessoas com baixa visão. |  ALTA |
+|RNF-003| O Site deverá estar apto a funcionar em dispositivos móveis, utilizando técnicas de responsividade.|  ALTA |
+|RNF-004| As informações de cadastro dos usuários deverão ser armazenadas para fins de segurança. |  ALTA |
+|RNF-005| Deverá ser implementado um sistema de verificação de autenticidade para os usuários. |  ALTA |
+|RNF-006| O Site será visualmente leve e evitar cores muito contrastantes para um maior conforto do usuário. | MEDIA |
+|RNF-007| O Site irá utilizar de cache no navegador para facilitar o retorno do usuário a etapas anteriores a que se encontravam. |  BAIXA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
