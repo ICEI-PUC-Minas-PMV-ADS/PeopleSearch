@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foram consolidados com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foram consolidados com a participação dos usuários em um trabalho de imersão feito pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
@@ -29,14 +29,23 @@ A fim de buscar mais informações sobre os motivos e causas de uso dessas pesso
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Os propósitos funcionais da plataforma serão denotados por intermédio da apresentação de duas categorias diferentes de requisitos (funcionais e não funcionais) que indicará as características que a plataforma demonstrará de maneira total. Sendo apresentados nas tabelas a seguir.
+
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve conter uma página inicial com informações sobre os principais objetivos e propostas para os usuários. | ALTA | 
+|RF-002| O site deve conter uma página de cadastro dos usuários e suas principais características.   | ALTA |
+|RF-003| O site deve conter uma página de Login para os usuários acessarem de forma instantânea .   | ALTA |
+|RF-004| O site deve contar uma página de suporte aos desenvolvedores.   | ALTA |
+|RF-005| O site deve conter uma página “sobre” com as principais informações e propostas do site para os usuários.   | ALTA |
+|RF-006| O site deve apresentar a opção de atualizar e remover informações de cadastro dos usuários.   | ALTA |
+|RF-007| O site deve conter uma página de criação e busca de grupos e pessoas com interesses similares.   | ALTA |
+|RF-008| O site deve conter página de contato para usuários interessados em saber mais sobre a aplicação, propor sugestões e sanar quaisquer dúvidas que venham apresentar.   | ALTA |
+|RF-009| O site deve disponibilizar ao usuário a opção de recebimento de e-mails informativos sobre interesses específicos da aplicação, dicas e outros.   | BAIXA |
+|RF-010| O Site irá disponibilizar ao usuário a opção de se desvincular da plataforma, endo assim, o registro de e-mail e qualquer envio automático serão desabilitados.   | BAIXA |
 
 ### Requisitos não Funcionais
 
