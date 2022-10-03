@@ -1,31 +1,39 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Os requisitos para realização dos testes de software são:
+Site publicado na Internet;
+Navegador da Internet - Chrome, Firefox ou Edge;
+Os testes funcionais a serem realizados no aplicativo são descritos nas tabelas a seguir:
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
-
-Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o(s) requisito(s) associado(s) a cada um deles está(ão) correto(s) - de acordo com o que foi definido na seção "2 - Especificação do Projeto". 
-
-Por exemplo:
  
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	| **CT-01 – Realizar cadastro no site.** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|	Requisito Associado 	| RF-01 - O site deve apresentar na página principal um botão de “SIGN UP” que ao clicar o usuário será direcionado para uma área de cadastro. |
+| Objetivo do Teste 	| Verificar se o usuário consegue ingressar na página e ter êxito na realização do cadastro. |
+| Passos 	| - Acessar o navegador; <br> - Informar o endereço do site; <br> - Visualizar a página principal; <br> - Clicar “SIGN UP”  <br> - Realizar o cadastro; |
+|Critério de Êxito | - Deve ser exibido para o usuário a tela inicial com o botão de “SIGN UP”; <br> O cadastro deve ser realizado com sucesso sendo o usuário reencaminhado para área interna do site.|
 |  	|  	|
-| Caso de Teste 	| CT-02 – Efetuar login	|
-|Requisito Associado | RF-00Y	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
-
+| **Caso de Teste** 	| **CT-02 – Realizar login no site**	|
+|Requisito Associado | RF-02	- O site deve apresentar na página principal um botão de “LOGIN” que ao clicar o usuário será direcionado para uma tela de login.|
+| Objetivo do Teste 	| Verificar se o usuário consegue realizar o login com sucesso. |
+| Passos 	| - Acessar o navegador; <br> - Informar o endereço do site;<br> - Visualizar a página principal; <br> - Clicar login; <br> - Ser direcionado para a área interna do site;|
+|Critério de Êxito | - Deve ser exibido para o usuário a tela inicial com o botão de login; <br> O login deve ser realizado com sucesso sendo o usuário reencaminhado para a área interna do site.|
+|  	|  	|
+| **Caso de Teste** 	| **CT-03 – Visualizar a página Contato**	|
+|Requisito Associado | RF-03	- O site deve permitir ao usuário visualizar os contatos dos administradores.|
+| Objetivo do Teste 	| Verificar se a página está sendo exibida corretamente. |
+| Passos 	| - Acessar o navegador; <br> - Informar o endereço do site;<br> - Visualizar a página principal; <br> - Clicar em “CONTATO”; <br> - Visualizar a página de contato;|
+|Critério de Êxito | - A página deve apresentar corretamente os contatos dos administradores.|
+|  	|  	|
+| **Caso de Teste** 	| **CT-04 – Realizar login no site**	|
+|Requisito Associado | RF-04	-O site deve permitir ao usuário visualizar a ementa do site.|
+| Objetivo do Teste 	| Verificar se a página está sendo exibida corretamente. |
+| Passos 	| - Acessar o navegador; <br> - Informar o endereço do site;<br> - Visualizar a página principal; <br> - Clicar em “SOBRE” <br> - Visualizar a página sobre;|
+|Critério de Êxito | - A página deve apresentar corretamente a ementa do site.|
+|  	|  	|
+| **Caso de Teste** 	| **CT-05 – Realizar login no site**	|
+|Requisito Associado | RF-05	- O site deve permitir ao usuário retornar a página inicial ao clicar em "PÁGINA INICIAL”.|
+| Objetivo do Teste 	| Verificar se o botão da página está funcionando corretamente, direcionando o usuário até a página inicial. |
+| Passos 	| - Acessar o navegador; <br> - Informar o endereço do site;<br> - Visualizar a página principal; <br> - Clicar em qualquer link do site; <br> - Visualizar o link da página clicada; <br> - Clicar em “PÁGINA INICIAL”; <br> Visualizar a página inicial;|
+|Critério de Êxito | - O botão deve retornar corretamente a página inicial.|
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
