@@ -1,8 +1,8 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
+Nesse item do projeto demonstraremos os detalhes técnicos de implementação da arquitetura de solução a ser aplicada pelo time de desenvolvedores demonstrando os componentes e detalhes que compõem a parte.
+Após as especificações dos requisitos, foram desenvolvidos o Diagrama de Caso de Uso, citado acima, Diagrama de Classes, Modelo de Entidade Relacional e o Projeto de Banco de Dados. Essas arquiteturas possibilitam o melhor entendimento do sistema, especificando o fluxo das informações de forma clara e objetiva, visando o entendimento de como o sistema deve se comportar.
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
 ## Diagrama de Classes
 
@@ -25,23 +25,22 @@ A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
 
 ## Projeto da Base de Dados
 
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
- 
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+ Um projeto de banco de dados é subdividido em várias etapas onde o objetivo é a criação de um banco de dados otimizado e que atenda as expectativas do cliente. E nesse contexto, os modelos de dados são muito importantes e foram extraídos através dos requisitos coletados e o projeto conceitual e lógico.
+ Nesta fase trabalhamos com requisitos de informação e regras de negócio do domínio do problema; Não nos preocupamos com aspectos físicos do banco de dados ou da tecnologia utilizada; Buscamos o entendimento do negócio junto aos usuários.
+
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Os componentes que fazem parte da solução são apresentados na Figura que se segue:
+Navegador - Interface básica do sistema 
+Páginas Web - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
+Local Storage - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
+Cadastros - campo para inserção de informações pessoais e interesses na plataforma
+Àreas de Interesse - cadastramento de opções de interesse que será ofertado ou criado pelo próprio usuário.
+News API - plataforma que permite o acesso às notícias exibidas no site.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+ O site utilizará a plataforma do GitHub  como ambiente de hospedagem do projeto. Será mantido no ambiente da URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/PeopleSearch sendo incorporado ao próprio repositório que será criado no GitHub.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
