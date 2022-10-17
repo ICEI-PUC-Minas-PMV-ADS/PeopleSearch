@@ -17,6 +17,7 @@ na interação via internet, mais precisa na área de games, mas futuramente que
 * Cesar Pereira dos Santos Filho
 * Diego Alberto Sobrinho 
 * Flávio Amaral Lopes
+* Fábio Cristiano de Moraes
 
 ## Orientador
 
