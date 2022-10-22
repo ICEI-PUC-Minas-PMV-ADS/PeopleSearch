@@ -3,69 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
     <title>PeopleSearch</title>
     <link rel="stylesheet" href="PaginaInicial.css">
+    <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+    <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
+    
 </head>
-<body>
 
-    <header id="headerPreviewPage">
+<body class="body">
 
-        <nav>
+    <header class="header">
 
-            <h1 id="navigationLogo">PeopleSearch</h1>
+            <h1 class="logo">PeopleSearch</h1>
 
-            <div id="navigationList">
+        <div class="header-btns">
+        
+            <button class="btns">log in</button>
+            <button class="btns">sign up</button>
+        
+        </div>
+    
+        </header>
 
-                <p>pagina inicial</p>
-                <p>sobre</p>
-                <p>contato</p>
-                
+    <figure class="slider">
+
+        <div class="slides">
+
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide first">
+                <img src="/imgs/1.png">
+            </div>    
+            <div class="slide">
+                <img src="/imgs/2.png">
             </div>
-
-            <div id="navigationButtons">
-
-                <button>log in</button>
-                <button>sign up</button>
-
+            <div class="slide">
+                <img src="/imgs/3.png">
             </div>
+            <div class="slide">
+                <img src="/imgs/4.png">
+            </div>
+    
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+    
+        </div>
 
-        </nav>
-
-    </header>
-
-    <figure id="detailsPreviewPage">
-
-        <img id="detailsImageOne" src="">
-        <img id="detailsImageTwo" src="">
-        <img id="detailsImageThree" src="">
-        <img id="detailsImageFour" src="">
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+        
 
     </figure>
 
-    <section id="sectionPreviewPage">
+    <section class="sectionPreviewPage">
 
-        <img id="previewChatPicture" src="">
+        <img class="previewChatPicture" src="/imgs/chatPreview.jpg">
             
-            <div id="previewChatPictureText">
+            <div class="previewChatPictureText">
                 
                 <p>CHAT PREVIA</p>
                 <p>EXPLICAÇÃO DO CHAT</p>
 
             </div>
 
-        <img id="previewSupportPicture" src="">
+        <img class="previewSupportPicture" src="">
             
-            <div id="previewSupportPictureText">
+            <div class="previewSupportPictureText">
                
                 <p>SUPORTE DOS DESENVOLVEDORES</p>
                 <p>EXPLICAÇÃO DO SUPORTE</p>
 
             </div>
             
-        <img id="previewTimeLinePicture" src="">
+        <img class="previewTimeLinePicture" src="">
             
-            <div id="previewTimeLinePictureText">
+            <div class="previewTimeLinePictureText">
 
                 <p>MÉTODO DE INTERAÇÃO</p>
                 <p>EXPLICAÇÃO DA FORMA DE INTEREÇÃO</p>
@@ -74,7 +98,7 @@
 
     </section>
 
-    <figure id="illustrativePicturePreviewPage">
+    <figure class="illustrativePicturePreviewPage">
 
         <img src="" alt="">
 
@@ -82,7 +106,7 @@
 
     <main id="mainContentPreviewPage">
         
-        <div id="mainContentPreviewPageTimeLine">
+        <div class="mainContentPreviewPageTimeLine">
 
             <img src="" alt="">
             <p>LINHA DO TEMPO</p>
@@ -91,7 +115,7 @@
 
         </div>
 
-        <div id="mainContentPreviewPageProfile">
+        <div class="mainContentPreviewPageProfile">
 
             <img src="" alt="">
             <p>PERFIL</p>
@@ -102,38 +126,38 @@
 
     </main>
 
-    <section id="feedbackBox">
+    <section class="feedbackBox">
         
-        <div id="sectionFeedbackText">
+        <div class="sectionFeedbackText">
 
-            <h1 id="sectionTextTitle">FEEDBACK</h1>
-            <p id="sectionTextSubtitle">O que as pessoas acham do nosso site.</p>
+            <h1 class="sectionTextTitle">FEEDBACK</h1>
+            <p class="sectionTextSubtitle">O que as pessoas acham do nosso site.</p>
 
         </div>
 
-        <div id="sectionFeedbackText">
+        <div class="sectionFeedbackText">
             
-            <div id="sectionFeedbackBoxUserOne">
+            <div class="sectionFeedbackBoxUserOne">
             
-                <p id="sectionFeedbackTextUserOne">feedback</p>
-                <img id="sectionFeedbackImageUserOne" src="" alt="">
-                <p id="sectionFeedbackTextUsernameOne">username</p>
+                <p class="sectionFeedbackTextUserOne">feedback</p>
+                <img class="sectionFeedbackImageUserOne" src="" alt="">
+                <p class="sectionFeedbackTextUsernameOne">username</p>
 
             </div>
 
-            <div id="sectionFeedbackBoxUserTwo">
+            <div class="sectionFeedbackBoxUserTwo">
 
-                <p id="sectionFeedbackTextUserTwo">feedback</p>
-                <img id="sectionFeedbackImageUserTwo" src="" alt="">
-                <p id="sectionFeedbackTextUsernameTwo">username</p>
+                <p class="sectionFeedbackTextUserTwo">feedback</p>
+                <img class="sectionFeedbackImageUserTwo" src="" alt="">
+                <p class="sectionFeedbackTextUsernameTwo">username</p>
 
             </div>
 
-            <div id="sectionFeedbackBoxUserThree">
+            <div class="sectionFeedbackBoxUserThree">
 
-                <p id="sectionFeedbackTextUserThree">feedback</p>
-                <img id="sectionFeedbackImageUserThree" src="" alt="">
-                <p id="sectionFeedbackTextUsernameThree">username</p>
+                <p class="sectionFeedbackTextUserThree">feedback</p>
+                <img class="sectionFeedbackImageUserThree" src="" alt="">
+                <p class="sectionFeedbackTextUsernameThree">username</p>
 
             </div>
 
@@ -141,20 +165,20 @@
 
     </section>
 
-    <section id="sectionPatchNotes">
+    <section class="sectionPatchNotes">
 
-        <div id="sectionPatchNotesHeader">
+        <div class="sectionPatchNotesHeader">
             
-            <h1 id="sectionPatchNotesHeaderText">O que vamos trazer de novo</h1>
+            <h1 class="sectionPatchNotesHeaderText">O que vamos trazer de novo</h1>
         
         </div>
 
-        <img id="sectionPatchNotesImage" src="" alt="">
+        <img class="sectionPatchNotesImage" src="" alt="">
 
-        <div id="sectionPatchNotesText">
+        <div class="sectionPatchNotesText">
 
-            <h1 id="sectionPatchNotesTextTitle">MUDANÇAS</h1>
-            <p id="sectionPatchNotesText">explicação das mudanças</p>
+            <h1 class="sectionPatchNotesTextTitle">MUDANÇAS</h1>
+            <p class="sectionPatchNotesText">explicação das mudanças</p>
 
         </div>
 
@@ -162,19 +186,24 @@
 
     <footer id="footerBox">
 
-        <div id="footerImageBox">
+        <div class="footerImageBox">
 
-        <img id="footerImage" src="" alt="">
+        <img class="footerImage" src="" alt="">
 
         </div>
 
-        <div id="footerTextBox">
+        <div class="footerTextBox">
 
-            <p id="footerText">TODOS OS DIREITOS RESERVADOS À PEOPLESEARCH</p>
+            <p class="footerText">TODOS OS DIREITOS RESERVADOS À PEOPLESEARCH</p>
 
         </div>
 
     </footer>
+
+    <script rel="text/javascript" src="PaginaInicial.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script scr="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
 
 </body>
 </html>

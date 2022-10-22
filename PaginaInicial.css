@@ -1,4 +1,59 @@
-. {
-    background-color: black;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 
+.body {
+    background-image: radial-gradient(circle, white, lightblue);
+}
+
+.header, .header-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 1%;
+    border-bottom: 4px solid rgb(53, 46, 46);
+    margin: 0 0 50px 0;
+}
+
+.btns {
+    width: 100px;
+    height: 5%;
+    border: solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0% 10% 0% 0%;
+    padding: 1.5%;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 70%;
+    height: 50vh;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.slide img {
+    width: 800px;
 }
