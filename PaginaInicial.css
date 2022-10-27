@@ -133,3 +133,25 @@
 #radio4:checked ~ .navigation-auto .auto-btn4 {
     background-color: black;
 }
+
+.container-chat-box {
+    margin-top: 75px;
+}
+
+.container-chat {
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+}
+
+.preview-chat-picture {
+    width: 500px;
+    height: 500px;
+}
+
+.preview-chat {
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
