@@ -206,3 +206,14 @@
     width: 100%;
     height: 600px;
 }
+
+.container-feedback-text {
+    margin: 0 auto;
+    width: 350px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
