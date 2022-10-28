@@ -1,7 +1,7 @@
 # Arquitetura da Solução
 
 Nesse item do projeto demonstraremos os detalhes técnicos de implementação da arquitetura de solução a ser aplicada pelo time de desenvolvedores demonstrando os componentes e detalhes que compõem a parte.
-Após as especificações dos requisitos, foram desenvolvidos o Diagrama de Caso de Uso, citado acima, Diagrama de Classes, Modelo de Entidade Relacional e o Projeto de Banco de Dados. Essas arquiteturas possibilitam o melhor entendimento do sistema, especificando o fluxo das informações de forma clara e objetiva, visando o entendimento de como o sistema deve se comportar.
+Após as especificações dos requisitos, foram desenvolvidos o Diagrama de Caso de Uso, citado acima, Diagrama de Classes, Modelo de Entidade Relacional e o Projeto de Banco de Dados. Essas arquiteturas possibilitam o melhor entendimento do sistema, especificando o fluxo das informações de forma clara e objetiva, visando o entendimento de como o sistema deve se comportar..
 
 
 ## Diagrama de Classes
