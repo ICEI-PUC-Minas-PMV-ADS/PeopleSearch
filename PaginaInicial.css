@@ -198,17 +198,18 @@
 }
 
 .container-illustrative-picture {
-    width: 100%;
-    margin-top: 56px;
+    margin: 25px auto;
+    width: 90%;
 }
 
 .container-picture {
+
     width: 100%;
     height: 600px;
 }
 
 .container-feedback-text {
-    margin: 0 auto;
+    margin: 30px auto;
     width: 350px;
     height: 50px;
     display: flex;
@@ -216,4 +217,17 @@
     align-items: center;
 }
 
+.container-feedback-text-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.container-footer {
+    width: 100%;
+    float: right;
+    margin: 10px 0;
+    padding-left: 25px;
+}
 
