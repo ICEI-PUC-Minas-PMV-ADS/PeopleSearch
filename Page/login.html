@@ -6,39 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style-login.css">
-    <title>Login</title> 
-    
+    <script src="script.js"></script>    
+    <title>Login</title>  
 </head>
 <body>
-    <section class="area-login">
+        <section class="area-login">
         <div class="login">
             <div>
-                <img src="Logo Search People.png">
+                <img src="LogoSearchPeople.png" alt="">
                 </div>
+                <br><br>
             <form method="POST">
                 <input type="text" nome="E-mail" id= "email" placeholder="E-mail" autofocus>
                 <input type="password" nome="Senha" id= "senha" placeholder="Senha" autofocus>
                 <input type="submit" value="Entrar" onclick="Entrar()">
             </form>
-            <p><a href="#">Recuperar senha</a></p>
-            <br><br>
+            <p><a href="#">Esqueci minha senha </a></p>
+            <br>
             <p>Ainda não tem cadastro? <a href="#">Cadastre-se</a></p>
             </div>
     </section>
-    <script>
-        
-        function Entrar(){
-
-            var email = document.getElementById('email').value;
-            var senha = document.getElementById('senha').value;
-
-            if(e-mail == "admin" && senha == "admin"){
-                alert('Sucesso');
-            }
-
-        }
-
-       
-    </script>
-</body>
+   </body>
 </html>
