@@ -17,13 +17,13 @@
                 </div>
                 <br><br>
             <form method="POST">
-                <input type="text" nome="E-mail" id= "email" placeholder="E-mail" autofocus>
-                <input type="password" nome="Senha" id= "senha" placeholder="Senha" autofocus>
-                <input type="submit" value="Entrar" onclick="Entrar()">
+                <input type="text" nome="E-mail" id="email" placeholder="E-mail" onchange="validatefields()" autofocus>
+                <input type="password" nome="Senha" id="password" placeholder="Senha" onchange="validatefields()" autofocus>
+                <input type="submit" value="Entrar" id="login-button" disabled="true" onclick="Entrar()">
+                <br><br><br>
+                <input type="button" value="Esqueci minha senha" disabled="true" id="esqueci-minha-senha" onclick="Esqueciminhasenha()"> 
+                <input type="button" value="Ainda não tem cadastro?" disabled="true" id="ainda-nao-tenho-cadastro" onclick="Aindanãotemcadastro()">
             </form>
-            <p><a href="#">Esqueci minha senha </a></p>
-            <br>
-            <p>Ainda não tem cadastro? <a href="#">Cadastre-se</a></p>
             </div>
     </section>
    </body>
