@@ -1,0 +1,43 @@
+body {
+    background: #CCCCCC;
+}
+
+.Logo{
+    width: 17%;
+}
+header{
+    padding: 20px 0;
+    background-color: #0B8FD0;
+
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right:0px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 50px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #0B8FD0;
+    text-align: center;
+    font-size: 13px;
+    padding: 15px 25px;
+}
