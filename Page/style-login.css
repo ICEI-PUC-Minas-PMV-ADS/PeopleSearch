@@ -1,0 +1,105 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    background-image: linear-gradient(to left, #3496b1, #43c4e8, #1e5869);
+}
+
+.area-login{
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+   font-size: 15px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    width: 308px;
+    height: 390px;
+    padding: 35px;
+    border-radius: 6px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input{
+    margin-top: 15px;
+    font-size: 14px;
+    border: 2px solid #f0f0f0;
+    border: none;
+    height: 30px;
+    outline: none;
+    border-radius: 10px;
+    color: black;
+    padding-left: 10px;
+}
+
+.input::placeholder{
+    color: black;
+    font-size: 14px;
+}
+
+form [type="submit"]{
+    background-image: linear-gradient(270deg, #3496b1, #43c4e8, #1e5869);
+    border: 2px solid #070707;
+    box-shadow: 1px 1px 3px black;
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 14px;
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease
+    }
+
+form [type=button]{     
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    font-size: 15px;
+    text-transform: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 0px;
+    color: #1e5869;
+    }
+
+button:active {
+    opacity: 0.7;
+}
+
+button[disabled] {
+    opacity: 0.7;
+}
+
+form [type="submit"]:hover{
+    background: #1e5869;
+    transition: 1s ease    
+    }
+
+.login img{
+    height: 120px;
+    width: 130px;
+}
+
+p{
+    padding: 10px;
+    font-weight: bold;
+    padding: 0px 10px 20px 10px;
+}
+
+a{
+    color: #5568fe;
+    text-decoration: none; 
+}

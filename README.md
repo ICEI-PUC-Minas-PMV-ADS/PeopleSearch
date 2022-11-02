@@ -12,10 +12,10 @@ na interação via internet, mais precisa na área de games, mas futuramente que
 ## Integrantes
 
 * Alexandre Magalhães Ribeiro
-* Alípio Luís Avelar Vieira
 * Bruna Ester Rolim Rocha
 * Cesar Pereira dos Santos Filho
-* Diego Alberto Sobrinho 
+* Diego Alberto Sobrinho
+* Fábio Cristiano de Moraes
 * Flávio Amaral Lopes
 * Fábio Cristiano de Moraes
 

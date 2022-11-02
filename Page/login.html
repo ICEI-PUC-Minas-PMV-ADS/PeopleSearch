@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-login.css">
+    <script src="script.js"></script>    
+    <title>Login</title>  
+</head>
+<body>
+        <section class="area-login">
+        <div class="login">
+            <div>
+                <img src="LogoSearchPeople.png" alt="">
+                </div>
+                <br><br>
+            <form method="POST">
+                <input type="text" nome="E-mail" id="email" placeholder="E-mail" onchange="validatefields()" autofocus>
+                <input type="password" nome="Senha" id="password" placeholder="Senha" onchange="validatefields()" autofocus>
+                <input type="submit" value="Entrar" id="login-button" disabled="true" onclick="Entrar()">
+                <br><br><br>
+                <input type="button" value="Esqueci minha senha" disabled="true" id="esqueci-minha-senha" onclick="Esqueciminhasenha()"> 
+                <input type="button" value="Ainda não tem cadastro?" disabled="true" id="ainda-nao-tenho-cadastro" onclick="Aindanãotemcadastro()">
+            </form>
+            </div>
+    </section>
+   </body>
+</html>

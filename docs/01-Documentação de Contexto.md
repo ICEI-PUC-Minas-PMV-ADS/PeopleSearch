@@ -13,9 +13,9 @@ Recentemente percebe-se que apesar de viver na era da tecnologia, com facilidade
 O objetivo deste projeto é o desenvolvimento de um site que possibilite a interação entre pessoas com vários objetivos, objetivos esse que podem ser: amizade, troca de experiência profissional, aprendizado, lazer, entre outros.
 Como objetivo específico, podemos destacar:
  
-Fornecer de forma agradável e interativa o acesso a salas de bate papo, onde pessoas estejam se relacionando em temas que lhe agrade.
-Possibilitar salas com alguns interesses pré-definidos, e também a possibilidade de criar salas com termos próprios, onde o usuário poderá navegar entre as possibilidades e escolher melhor a que se adequa ao seu perfil.
-Possibilitar que pessoas consigam localizar outras para dividirem momentos/experiências, desta forma facilitando a convivência em grupos.
+- Fornecer de forma agradável e interativa o acesso a salas de bate papo, onde pessoas estejam se relacionando em temas que lhe agrade.
+- Possibilitar salas com alguns interesses pré-definidos, e também a possibilidade de criar salas com termos próprios, onde o usuário poderá navegar entre as possibilidades e escolher melhor a que se adequa ao seu perfil.
+- Possibilitar que pessoas consigam localizar outras para dividirem momentos/experiências, desta forma facilitando a convivência em grupos.
 
 
 ## Justificativa
