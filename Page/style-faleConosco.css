@@ -1,4 +1,5 @@
 body {
+    font-family: 'Montserrat', sans-serif;
     background: #CCCCCC;
 }
 
@@ -7,7 +8,7 @@ body {
 }
 header{
     padding: 20px 0;
-    background-color: #0B8FD0;
+    background-color: #4299b3;
 
 }
 
@@ -34,9 +35,13 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+nav a:hover {
+    color: #CCCCCC;
+    
+}
 
 footer {
-    background-color: #0B8FD0;
+    background-color: #4299b3;
     text-align: center;
     font-size: 13px;
     padding: 15px 25px;
