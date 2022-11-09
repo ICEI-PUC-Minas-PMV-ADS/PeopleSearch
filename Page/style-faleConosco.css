@@ -40,6 +40,26 @@ nav a:hover {
     
 }
 
+.principal h1{
+    margin-top: 20px;
+    margin-left: 500px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.principal p {
+    margin-left: 500px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.principal ul {
+    margin-left: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
 footer {
     background-color: #4299b3;
     text-align: center;
