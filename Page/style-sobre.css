@@ -1,4 +1,5 @@
 body {
+    font-family: 'Montserrat', sans-serif;
     background: #CCCCCC;
 }
 
@@ -7,7 +8,7 @@ body {
 }
 header{
     padding: 20px 0;
-    background-color: #0B8FD0;
+    background-color: #4299b3;
 
 }
 
@@ -34,10 +35,37 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+nav a:hover {
+    color: #CCCCCC;
+    
+}
+
+.principal p1 {
+    margin-left: 500px;
+    font-size: 22px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.principal h2{
+    margin-left: 500px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.principal p{
+    margin-left: 500px;
+    font-size: 22px;
+    padding: 10px;
+}
+.principal li {
+    margin-left: 500px;
+}
 
 footer {
-    background-color: #0B8FD0;
+    background-color: #4299b3;
     text-align: center;
     font-size: 13px;
     padding: 15px 25px;
 }
+

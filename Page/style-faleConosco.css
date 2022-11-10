@@ -8,7 +8,7 @@ body {
 }
 header{
     padding: 20px 0;
-    background-color: #0B8FD0;
+    background-color: #4299b3;
 
 }
 
@@ -28,6 +28,7 @@ nav li {
     display: inline;
     margin: 0 0 0 50px;
 }
+
 nav a {
     text-transform: uppercase;
     color: #000000;
@@ -40,8 +41,28 @@ nav a:hover {
     
 }
 
+.principal h1{
+    margin-top: 20px;
+    margin-left: 500px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.principal p {
+    margin-left: 500px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.principal ul {
+    margin-left: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
 footer {
-    background-color: #0B8FD0;
+    background-color: #4299b3;
     text-align: center;
     font-size: 13px;
     padding: 15px 25px;
