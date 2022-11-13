@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de usuário</title>
+    <link rel="stylesheet" href="/Página de cadastro/style-formulario-cadastro.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"/>
+     
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Criar sua conta</h2>
+      </div>
+      <form action="#" id="form" class="form">
+        <div class="form-control">
+          <label for="username">Nome<span>*</span></label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Digite seu nome completo"
+          />
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Mensagem de erro </small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">E-mail<span>*</span></label>
+          <input type="text" id="email" placeholder="Digite seu e-mail" />
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Mensagem de erro </small>
+        </div>
+        <div class="form-control">
+          <label for="password">Senha<span>*</span></label>
+          <input type="password" id="password" placeholder="Crie uma senha de no mínimo 7 dígitos" />
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Mensagem de erro </small>
+        </div>
+
+        <div class="form-control">
+          <label for="password-confirmation">Confirmação<span>*</span></label>
+          <input
+            type="password"
+            id="password-confirmation"
+            placeholder="Confirme a senha"
+          />
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Mensagem de erro </small>
+        </div>
+        <p>*Campo Obrigatório</p>
+        <button type="submit">Enviar</button>
+      
+      </form>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/e2ce7cede7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/Página de cadastro/scripts-formulario-cadastro.js"></script>
+  </body>
+</html>
