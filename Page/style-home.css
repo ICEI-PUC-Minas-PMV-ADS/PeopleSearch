@@ -41,12 +41,10 @@ nav a:hover {
     
 }
 
-.principal h1{
-    margin-top: 20px;
-    margin-left: 500px;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.principal {
+    margin-left: 620px;
+    
+    
 }
 
 .principal p {
@@ -61,6 +59,56 @@ nav a:hover {
     margin-bottom: 10px;
     font-size: 22px;
 }
+
+.motivador {
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+
+form [type="submit"]{
+    background-image: linear-gradient(270deg, #3496b1, #43c4e8, #1e5869);
+    border: 2px solid #070707;
+    box-shadow: 1px 1px 3px black;
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 14px;
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease
+    }
+
+button:active {
+    opacity: 0.7;
+}
+
+button {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    font-size: 15px;
+    text-transform: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 0px;
+    color: #1e5869;
+    opacity: 0.7;
+    border: none;
+    margin-top: 08px;
+}
+
+form [type="submit"]:hover{
+    background: #1e5869;
+    transition: 1s ease    
+    }
+
+
 footer {
     background-color: #4299b3;
     text-align: center;
