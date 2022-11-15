@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, #3496b1, #43c4e8, #1e5869);
+  }
+  
+  .container {
+    background-color: azure;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+  
+  }
+  .header{
+      background-image: linear-gradient(to left, #3496b1, #43c4e8, #1e5869);
+      padding: 10px;
+      color: #fff;
+      text-align: center;
+  
+  }
+  .form{
+      padding: 20px;
+  }
+  .form-control{
+      margin-bottom: 10px;
+      padding-bottom: 20px;
+      position: relative;
+  }
+  .form-control label{
+      display: block;
+      margin-bottom: 5px;
+  }
+  .form-control input {
+      border: 2px solid #f0f0f0;
+      display: block;
+      border-radius: 10px;
+      font-size: 14px;
+      width: 100%;
+      padding: 10px;
+  }
+  
+  .form-control i{
+      position: absolute;
+      top: 45px;
+      right: 10px;
+      visibility: hidden;
+  }
+  .form-control small{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin: 50px 0px 0px 0px;
+      visibility: hidden;
+  }
+  .form button {
+      background-image: linear-gradient(270deg, #3496b1, #43c4e8, #1e5869);
+      border: 2px solid #070707;
+      box-shadow: 1px 1px 3px black;
+      color: #fff;
+      font-size: 14px;
+      width: 100%;
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .form button:hover{
+      background: #1e5869;
+      transition: 1s;
+  }
+  p{
+      padding: 10px;
+      font-weight: bold;
+      padding: 0px 10px 20px 10px;
+      }
+  .form-control.success input{
+      border-color: rgb(16, 247, 16);
+  }
+  .form-control.error input{
+      border-color: rgb(247, 30, 77);
+  }
+  .form-control.success i.fa-check{
+      color: rgb(16, 247, 16);
+      visibility: visible;
+  }
+  .form-control.error i.fa-circle-exclamation{
+      color: rgb(247, 30, 77);
+      visibility: visible;
+  }
+  .form-control.error small{
+      color: rgb(247, 30, 77);
+      visibility: visible;
+  }
