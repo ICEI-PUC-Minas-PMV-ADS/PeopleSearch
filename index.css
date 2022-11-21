@@ -9,55 +9,78 @@ body {
     background-color: white;
 }
 
-header {
+.container-header {
     background-color: black;
-    border-bottom: 3px red solid;
+    border-bottom: 2px red solid;
     width: 100%;
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .container-logo-header-text {
-    width: fit-content;
     padding: 10px;
     margin-left: 6rem;
 }
 
 .container-logo-header {
+    font-size: 26px;
+    font-weight: bold;
     color: white;
 }
 
 .container-header-menu {
-    position: relative;
-    margin-left: 12rem;
+    margin-right: 6rem;
     font-size: large;
     font-weight: bold;
-    width: 20rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 .container-header-menu a {
     color: white;
-    padding-left: 32px;
     text-decoration: none;
+}
+
+.container-header-menu a:hover {
+    color: lightgray;
+}
+
+.container-header-menu a:not(:first-child) {
+    padding-left: 2rem;
 }
 
 .container-content {
     width: 100%;
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 12px 0 12px 0;
+    border-bottom: 2px red solid; 
 }
 
-.container-search-text {
-    margin: 12px 0 0 12px;
+
+.container-search-button, .container-search-text {
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.container-search-button:hover {
+    cursor: pointer;
+    background-color: lightgrey;
 }
 
 .container-advanced-search {
-    margin-top: 12px;
-    margin-left: 32px;
     font-size: large;
     font-weight: bold;
+    padding-left: 22px;
+    color: white;
+}
+
+.container-advanced-search a:not(:first-child) {
+    padding-left: 22px;
+}
+
+.container-advanced-search:hover {
+    color: gray;
 }
 
