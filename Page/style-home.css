@@ -42,8 +42,10 @@ nav a:hover {
     
 }
 
+.principal{
+    margin-top: 50px;
 
-
+}
 .principal p {
     margin-left: 500px;
     font-size: 22px;
