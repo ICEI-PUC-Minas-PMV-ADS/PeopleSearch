@@ -40,26 +40,31 @@ nav a:hover {
     
 }
 
-.principal p1 {
-    margin-left: 500px;
-    font-size: 22px;
-    padding: 10px;
-    margin-bottom: 15px;
-}
-
 .principal h2{
     margin-left: 500px;
     font-size: 30px;
     font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 .principal p{
     margin-left: 500px;
     font-size: 22px;
     padding: 10px;
+    
+}
+
+.principal g{
+    margin-left: 500px;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
 }
 .principal li {
     margin-left: 500px;
+    margin-bottom: 20px;
+   
 }
 
 footer {
