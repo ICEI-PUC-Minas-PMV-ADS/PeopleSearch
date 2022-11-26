@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-recsenha.css">
+    <script src="script.js"></script>    
+    <title>Recuperarsenha</title>  
+</head>
+<body>
+        <section class="area-recuperarsenha">
+        <div class="recuperarsenha">
+            <div id="logo">
+                <img src="LogoSearchPeople.png" alt="LogoSearchPeople" width="130px" height="120px"/>
+            </div>
+            <br><br>
+                <p>Recuperar senha</p>
+                <h1>Para recuperar sua senha, informe seu endereço de email que nós enviaremos um link para a alteração da senha.</h1>
+                <br>
+                <input type="text" nome="E-mail" id="email" placeholder="E-mail" onchange="validatefields()" autofocus> 
+                <br><br>
+            <form method="POST">
+                <input type="submit" value="Enviar" id="Enviar-button" onclick="Enviar()">
+                <br><br><br><br>
+            </form>
+            </div>
+    </section>
+   </body>
+</html>
