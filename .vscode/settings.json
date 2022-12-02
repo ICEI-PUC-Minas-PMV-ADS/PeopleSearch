@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/62a995aa-f3a4-42d6-901c-ea88677e5c9c/AppServices/subscriptions/62a995aa-f3a4-42d6-901c-ea88677e5c9c/resourceGroups/pucsearchpeople_group/providers/Microsoft.Web/sites/pucsearchpeople",
+    "appService.deploySubpath": "."
+}
