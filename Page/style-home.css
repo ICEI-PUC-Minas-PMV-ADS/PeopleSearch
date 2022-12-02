@@ -1,28 +1,29 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-    background: #CCCCCC;
+html{
+    font-size: 62,5%;
 }
 
 .Logo{
     width: 17%;
 }
+
 header{
     padding: 20px 0;
     background-color: #4299b3;
-
-}
+    width: 100%;
+    }
 
 .caixa{
     position: relative;
-    width: 940px;
     margin: 0 auto;
+    
+    
     
 }
 
 nav{
     position: absolute;
-    top: 110px;
-    right:0px;
+    top: 150px;
+    right:90px;
 }
 nav li {
     display: inline;
@@ -33,7 +34,7 @@ nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 2.2rem;
     text-decoration: none;
 }
 nav a:hover {
@@ -41,29 +42,23 @@ nav a:hover {
     text-decoration: none;
     
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #CCCCCC;
+    height: 100vh;
+}
 
 .principal{
     margin-top: 50px;
 
 }
-.principal p {
-    margin-left: 500px;
-    font-size: 22px;
-    margin-bottom: 10px;
-}
 
-.principal ul {
-    margin-left: 500px;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 22px;
-}
 
 .motivador h1{
     text-align: center;
     padding: 50px;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 3.0rem;
 }
 
 
@@ -75,49 +70,18 @@ nav a:hover {
     width: 30%;
     border-radius: 10px;
     display: block;
-    font-size: 40px;
+    font-size: 3.0rem;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
     margin-bottom: 50px ;
-    margin-left: 650px;
     text-decoration: none;
-    
-    
-    
-    }
-
-
+ 
+}
 
 button:active {
     opacity: 0.7;
-}
-
-/*button {
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    font-size: 15px;
-    text-transform: none;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-top: 0px;
-    color: #1e5869;
-    opacity: 0.7;
-    border: none;
-    margin-top: 08px;
-    margin-bottom: 20px;
-}
-*/
-
-.cavaleiro {
-
-    margin-left: 800px;
-    margin-bottom: 20px;
-    
-    
 }
 
 form [type="submit"]:hover{
@@ -125,10 +89,97 @@ form [type="submit"]:hover{
     transition: 1s ease    
     }
 
-
 footer {
     background-color: #4299b3;
     text-align: center;
-    font-size: 13px;
+    font-size: 1.3rem;
     padding: 15px 25px;
+    width: 100%;
+}
+
+@media (max-width: 1050px){
+    html{
+        font-size: 61%;
+    }
+
+    nav {
+        top: 80px;
+    }
+}
+
+@media(max-width: 740px){
+    html{
+        font-size: 50%;
+    }
+
+    nav {
+       display: none;
+    }
+
+    .one,
+    .two,
+    .three{
+        background-color: #fff;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.3s;
+    }
+
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+        
+    }
+
+    .menu-section.on {
+        position: absolute;
+        top:0;
+        left: 0;
+        background-color: #3496b1;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-section.on nav {
+        display: block;
+        
+    }
+
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 0;
+        top: 15px;
+    }
+
+    .menu-section.on .menu-toggle .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+
+    .menu-section.on nav ul {
+        text-align: center;
+        display: block;
+    }
+
+    .menu-section.on nav ul a {
+        margin-right: 100px;
+        padding: 10px;
+        transition-duration: 0.5s;
+        font-size: 4rem;
+        display: block;
+    }
 }
