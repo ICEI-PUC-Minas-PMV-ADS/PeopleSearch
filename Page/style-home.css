@@ -1,5 +1,5 @@
 html{
-    font-size: 62,5%;
+    font-size: 62.5%;
 }
 
 .Logo{
@@ -15,9 +15,7 @@ header{
 .caixa{
     position: relative;
     margin: 0 auto;
-    
-    
-    
+   
 }
 
 nav{
@@ -34,7 +32,7 @@ nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 2.2rem;
+    font-size: 3rem;
     text-decoration: none;
 }
 nav a:hover {
@@ -107,7 +105,17 @@ footer {
     }
 }
 
-@media(max-width: 740px){
+@media (max-width: 900px){
+    html{
+        font-size: 55%;
+    }
+
+    nav {
+        top: 80px;
+    }
+}
+
+@media(max-width: 830px){
     html{
         font-size: 50%;
     }
