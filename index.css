@@ -84,3 +84,79 @@ body {
     color: gray;
 }
 
+.container-profile-1 {
+    background-color: black;
+    width: 33%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 2px;
+    border: red 3px solid
+}
+
+.card-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid red;
+    margin-left: 16px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.container-card-profile-1 {
+    display: flex;
+    align-items: center;
+}
+
+.name-profile {
+    margin-left: 32px;
+    color: white;
+}
+
+.container-profile-about-1 {
+    margin-left: 16px;
+    font-size: medium;
+    font-weight: 1000;
+    color: white;
+}
+
+li {
+    color: white;
+    border-bottom: 1px solid black;
+    list-style: none;
+}
+
+.container-emphasis-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-top: 7px;
+    margin-left: 16px;
+}
+
+.emphasis {
+    font-weight: 1000;
+    border-bottom: 1.5px solid red;
+    width: fit-content;
+}
+
+.container-button-more-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+.button-more {
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.button-more:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
