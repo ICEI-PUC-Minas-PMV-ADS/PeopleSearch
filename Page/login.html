@@ -12,7 +12,15 @@
 <header>
     <div class="caixa">
         <img src="LogoSearchPeople.png" class="Logo" alt="Logo SearchPeople">
-        </h1>
+        <center> 
+        <div class="menu-section">
+        <div class="menu-toggle">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+    
+           
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -22,7 +30,9 @@
                 
             </ul>
         </nav>
-    </div>    
+      </center>
+    
+    <script src="menu.js"></script>
 </header>
 
 <body>
@@ -35,17 +45,20 @@
             <form method="POST">
                 <input type="text" nome="E-mail" id="email" placeholder="E-mail" onchange="validatefields()" autofocus>
                 <input type="password" nome="Senha" id="password" placeholder="Senha" onchange="validatefields()" autofocus>
+                <br>
                 <input type="submit" value="Entrar" id="login-button" onclick="Entrar()">
                 <br><br><br><br>
-                <button class="esqueciminhasenha"> Esqueci minha senha</button>
-                <button class="aindanãotemcadastro"> Ainda não tem cadastro?</button>
+                <div class="emsantc">
+                    <li><a href="recsenha.html">Esqueci minha senha</a></li>
+                    <li><a href="pagina-cadastro.html">Ainda não tem cadastro?</a></li>
+                </div>
             </form>
             </div>
     </section>
 
     <footer>
         <img src = "">
-        <p>&copy; Copyright PeopleSearch- 2022</p>
+        <p>&copy; Copyright PeopleSearch - 2022</p>
         </footer> 
    </body>
 

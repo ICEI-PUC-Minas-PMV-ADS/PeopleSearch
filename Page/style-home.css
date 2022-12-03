@@ -37,9 +37,9 @@ nav a {
 }
 nav a:hover {
     color: #CCCCCC;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
     background: #CCCCCC;
