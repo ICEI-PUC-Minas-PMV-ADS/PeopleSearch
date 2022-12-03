@@ -50,7 +50,6 @@ body {
 
 .area-login{
    display: flex;
-   /*height: 20vh;*/
    justify-content: center;
    align-items: center;
    font-size: 15px;
@@ -101,7 +100,6 @@ form [type="submit"]{
     border-radius: 10px;
     font-size: 14px;
     display: block;
-    font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
