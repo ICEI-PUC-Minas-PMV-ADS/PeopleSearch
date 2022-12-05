@@ -187,3 +187,16 @@ li {
     cursor: pointer;
     background-color: lightgray;
 }
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+    padding-left: 25px;
+}
+
+.footer-text {
+    font-size: large;
+    font-weight: bold;
+}
