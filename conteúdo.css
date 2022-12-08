@@ -1,0 +1,130 @@
+.container-profile {
+    background-color: #d4d4d7;
+    width: 32%;
+    height: 87vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 2px;
+    border: black 3px solid
+}
+
+.padding {
+    padding: 12px;
+}
+
+.card-photo {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.container-card-profile {
+    display: flex;
+    align-items: center;
+}
+
+.name-profile {
+    margin-left: 32px;
+    width: fit-content;
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.container-profile-about {
+    margin-top: 12px;
+    font-size: medium;
+    color: black;
+}
+
+li {
+    color: black;
+    border-bottom: 1px solid black;
+    list-style: none;
+}
+
+.container-emphasis {
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.emphasis {
+    font-weight: 1000;
+    border-bottom: 1.5px solid black;
+    width: fit-content;
+}
+
+.container-what-search {
+    margin-top: 24px;
+}
+
+.title-what-search {
+    display: flex;
+    justify-content: center;
+}
+
+.what-search-text {
+    padding-top: 6px;
+    text-align: justify;
+}
+
+.container-button-send-mensage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.button-mensage {
+    font-weight: 700;
+    font-size: medium;
+    border: 1px solid black;
+    color: white;
+    padding: 2px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.button-mensage:hover {
+    cursor: pointer;
+}
+
+.container-profile-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.container-next-page {
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.next-page-text {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 22px;
+}
+
+.next-page-text:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.container-footer {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+    padding-left: 25px;
+}
+
+.footer-text {
+    font-size: large;
+    font-weight: bold;
+}
