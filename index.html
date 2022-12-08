@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/form.css">
 </head>
 <body>
     <header class="container-header">
@@ -21,23 +22,28 @@
     <section>
         <div class="container-create-profile">
             <div class="container-nome">
-                <input type="text" placeholder="Insira seu nome">
+                <input type="text" required="required" maxlength="45">
+                <span>Insira seu nome</span>
             </div>
             <div class="container-about">
-                <input type="text" placeholder="Me fale um pouco sobre você">
+                <input type="text" required="required">
+                <span>Me faleu um pouco sobre você</span>
             </div>
             <div class="container-insights">
-                <input type="text" placeholder="Me diga uma caracteristica sua">
-                <input type="text" placeholder="Me diga uma caracteristica sua">
-                <input type="text" placeholder="Me diga uma caracteristica sua">
-                <input type="text" placeholder="Me diga uma caracteristica sua">
-                <input type="text" placeholder="Me diga uma caracteristica sua">
-                <input type="text" placeholder="Me diga uma caracteristica sua">
+                <span>Escreva 1 caracteristica sua em cada caixa</span>
+                <input type="text" required="required">
+                <input type="text" required="required">
+                <input type="text" required="required">
+                <input type="text" required="required">
+                <input type="text" required="required">
+                <input type="text" required="required">
             </div>
             <div class="container-what-search">
-                    <input type="text" placeholder="O que você procura no nosso site">
+                <input type="text" required="required">
+                <span>O que você procura no nosso site ?</span>
             </div>
             <div class="container-profile-pick">
+                <span>Insira uma foto de perfil</span>
                 <input id="input-pick" title="profilePick" type="file" accept="image/png, image/jpg">
             </div>
         </div>
