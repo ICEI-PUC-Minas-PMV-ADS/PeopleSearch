@@ -1,41 +1,89 @@
+html{
+    font-size: 62.5%;
+}
+
+.Logo{
+    width: 17%;
+}
+header{
+    padding: 20px 0;
+    background-color: #4299b3;
+    width: 100%;
+}
+
+.caixa{
+    position: relative;
+    margin: 0 auto;    
+}
+
+nav{
+    position: absolute;
+    top: 150px;
+    right:90px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 50px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #CCCCCC;
+    text-decoration: none;    
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-  }
+    
+}
   
-  body {
-    width: 100%;
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #CCCCCC;
     height: 100vh;
+}
+  
+.container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to left, #3496b1, #43c4e8, #1e5869);
-  }
-  
-  .container {
-    background-color: azure;
-    border-radius: 10px;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    border-radius: 6px;
     box-shadow: 5px 5px 10px black;
-    width: 400px;
+    width: 460px;
     max-width: 100%;
+    margin-top: 125px;
+    margin-bottom: 125px;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
   
-  }
-  .header{
+}
+
+.header{
       background-image: linear-gradient(to left, #3496b1, #43c4e8, #1e5869);
-      padding: 10px;
+      padding: 13px;
       color: #fff;
       text-align: center;
+      font-size: 15px;
   
   }
   .form{
       padding: 20px;
+      font-size: 13px;
   }
   .form-control{
-      margin-bottom: 10px;
-      padding-bottom: 20px;
+      margin-bottom: 25px;
+      padding-bottom: 5px;
       position: relative;
   }
   .form-control label{
@@ -46,9 +94,9 @@
       border: 2px solid #f0f0f0;
       display: block;
       border-radius: 10px;
-      font-size: 14px;
+      font-size: 17px;
       width: 100%;
-      padding: 10px;
+      padding: 9px;
   }
   
   .form-control i{
@@ -69,12 +117,11 @@
       border: 2px solid #070707;
       box-shadow: 1px 1px 3px black;
       color: #fff;
-      font-size: 14px;
       width: 100%;
       border-radius: 10px;
-      padding: 10px;
       font-size: 20px;
       font-weight: bold;
+      padding: 2px;
   }
   .form button:hover{
       background: #1e5869;
@@ -102,4 +149,110 @@
   .form-control.error small{
       color: rgb(247, 30, 77);
       visibility: visible;
-  }
+
+   }
+
+   footer {
+    background-color: #4299b3;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 15px 25px;
+    width: 100%;
+}
+
+@media (max-width: 1222px){
+    html{
+        font-size: 61%;
+    }
+
+    nav {
+        top: 80px;
+    }
+}
+
+@media (max-width: 900px){
+    html{
+        font-size: 55%;
+    }
+
+    nav {
+        top: 80px;
+    }
+}
+
+@media(max-width: 830px){
+    html{
+        font-size: 50%;
+    }
+
+    nav {
+       display: none;
+    }
+
+    .one,
+    .two,
+    .three{
+        background-color: #fff;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.3s;
+    }
+
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+        
+    }
+
+    .menu-section.on {
+        position: absolute;
+        top:0;
+        left: 0;
+        background-color: #3496b1;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-section.on nav {
+        display: block;
+        
+    }
+
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 0;
+        top: 15px;
+    }
+
+    .menu-section.on .menu-toggle .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+
+    .menu-section.on nav ul {
+        text-align: center;
+        display: block;
+    }
+
+    .menu-section.on nav ul a {
+        margin-right: 100px;
+        padding: 10px;
+        transition-duration: 0.5s;
+        font-size: 4rem;
+        display: block;
+    }
+}
