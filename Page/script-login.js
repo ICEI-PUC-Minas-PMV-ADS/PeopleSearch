@@ -1,11 +1,25 @@
-function Entrar(){
+function validateFields() {
+    const emailValid = isEmailValid();
+    const password = isPasswordValid();       
+}
 
-    var email = document.getElementById('email').value;
-    var password = document.getElementById('password').value;
-
-    if(email == "admin" && password == "admin"){
-        alert('Sucesso');
-    }else{
-        alert('Usuário ou senha inválido');
+function isEmailValid() {
+    const email = document.getElementById("email").value;
+    if (!email) {
+        return false;     
     }
+    return validateEmail(email); 
+}
+
+function isPasswordValid() {
+    const password = document.getElementById('password').value;
+    if (!password) {
+        return false;    
+    }
+    return true;
+
+}
+
+function validateEmail(email) {
+    return /\S+@\S+\.\S+/.test(email);
 }
