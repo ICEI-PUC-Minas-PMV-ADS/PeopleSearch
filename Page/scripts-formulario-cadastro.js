@@ -1,6 +1,9 @@
 const form = document.getElementById("form");
 const username = document.getElementById("username");
 const email = document.getElementById("email");
+const genero = document.getElementById("genero");
+const idade = document.getElementById("idade");
+const contato = document.getElementById("contato");
 const password = document.getElementById("password");
 const passwordConfirmation = document.getElementById("password-confirmation");
 
@@ -13,6 +16,9 @@ form.addEventListener("submit", (e) => {
 function checkInputs() {
   const usernameValue = username.value;
   const emailValue = email.value;
+  const generoValue = genero.value;
+  const idadeValue = idade.value;
+  const contatoValue = contato.value;
   const passwordValue = password.value;
   const passwordConfirmationValue = passwordConfirmation.value;
 
@@ -28,6 +34,24 @@ function checkInputs() {
     setErrorFor(email, "Por favor, insira um e-mail válido");
   } else {
     setSuccessFor(email);
+  }
+
+  if (generoValue === "") {
+    setErrorFor(genero, "O gênero é obrigatório.");
+  } else {
+    setSuccessFor(genero);
+  }
+
+  if (idadeValue === "") {
+    setErrorFor(idade, "A idade é obrigatório.");
+  } else {
+    setSuccessFor(idade);
+  }
+
+  if (contatoValue === "") {
+    setErrorFor(contato, "O contato é obrigatório.");
+  } else {
+    setSuccessFor(contato);
   }
 
   if (passwordValue === "") {

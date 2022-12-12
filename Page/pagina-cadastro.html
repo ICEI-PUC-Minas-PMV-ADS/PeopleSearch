@@ -13,10 +13,35 @@
       rel="stylesheet"/>
      
   </head>
+  <header>
+    <div class="caixa">
+        <img src="LogoSearchPeople.png" class="Logo" alt="Logo SearchPeople">
+        <center> 
+        <div class="menu-section">
+        <div class="menu-toggle">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+    
+           
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sobre.html">Sobre</a></li>
+                <li><a href="faleConosco.html">Fale Conosco</a></li>
+                <li><a href="login.html">Login</a></li>
+                
+            </ul>
+        </nav>
+      </center>
+    
+    <script src="menu.js"></script>
+</header>
   <body>
     <div class="container">
       <div class="header">
-        <h2>Criar sua conta.</h2>
+        <h2>Criar sua conta</h2>
       </div>
       <form action="#" id="form" class="form">
         <div class="form-control">
@@ -38,6 +63,31 @@
           <i class="fa-solid fa-circle-exclamation"></i>
           <small>Mensagem de erro </small>
         </div>
+
+        <div class="form-control">
+          <label for="genero">Gênero<span>*</span></label>
+          <input type="text" id="genero" placeholder="Digite seu gênero" />
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Mensagem de erro </small>
+        </div>
+
+        <div class="form-control">
+          <label for="idade">Idade<span>*</span></label>
+          <input type="text" id="idade" placeholder="Digite sua Idade" />
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Mensagem de erro </small>
+        </div>
+
+        <div class="form-control">
+          <label for="idade">Contato<span>*</span></label>
+          <input type="text" id="contato" placeholder="Digite seu contato" />
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <small>Mensagem de erro </small>
+        </div>
+
         <div class="form-control">
           <label for="password">Senha<span>*</span></label>
           <input type="password" id="password" placeholder="Crie uma senha de no mínimo 7 dígitos" />
@@ -67,5 +117,9 @@
       crossorigin="anonymous"
     ></script>
     <script src="scripts-formulario-cadastro.js"></script>
+    <footer>
+      <img src = "">
+      <p>&copy; Copyright PeopleSearch - 2022</p>
+      </footer> 
   </body>
 </html>
