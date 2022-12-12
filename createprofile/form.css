@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-create-profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #525777;
+}
+
+.container-nome {
+    position: relative;
+    width: 420px;
+}
+
+.container-nome input {
+    width: 100%;
+    height: 75%;
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    font-size: 1em;
+    background: #525777;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.container-nome span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+.container-nome input:valid ~ span,
+.container-nome input:focus ~ span {
+    color: red;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    background-color: #525777;;
+    letter-spacing: 0.2em;
+}
+
+.container-nome input:valid,
+.container-nome input:focus {
+    border: 1px solid red;
+}
+
+
+.container-about {
+    position: relative;
+    width: 420px;
+}
+
+.container-about input {
+    width: 100%;
+    height: 75%;
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    font-size: 1em;
+    background: #525777;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.container-about span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+.container-about input:valid ~ span,
+.container-about input:focus ~ span {
+    color: red;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    background-color: #525777;;
+    letter-spacing: 0.2em;
+}
+
+.container-about input:valid,
+.container-about input:focus {
+    border: 1px solid red;
+}
+
+.container-insights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 420px;
+    gap: 8px;
+}
+
+.container-insights input {
+    width: 100%;
+    height: 75%;
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    font-size: 1em;
+    background: #525777;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.container-insights input:valid ~ p,
+.container-insights input:focus ~ p {
+    color: red;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    background-color: #525777;;
+    letter-spacing: 0.2em;
+}
+
+.container-insights p {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+.container-insights input:valid,
+.container-insights input:focus {
+    border: 1px solid red;
+}
+
+.container-what-search {
+    position: relative;
+    width: 420px;
+    height: fit-content;
+    margin-top: 5px;
+}
+
+.container-what-search input {
+    width: 100%;
+    height: 75%;
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    font-size: 1em;
+    background: #525777;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.container-what-search span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+.container-what-search input:valid ~ span,
+.container-what-search input:focus ~ span {
+    color: red;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    background-color: #525777;;
+    letter-spacing: 0.2em;
+}
+
+.container-what-search input:valid,
+.container-what-search input:focus {
+    border: 1px solid red;
+}
+
+.container-profile-pick {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-profile-pick p {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.container-submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.container-submit-button button {
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: 800;
+}
+
+.container-submit-button button:hover {
+    background-color: red;
+    cursor: pointer;
+}
