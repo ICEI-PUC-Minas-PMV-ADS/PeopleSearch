@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Back_ps.csproj",
+  "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Back_ps.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -16,98 +16,98 @@
   "RootNamespace": "app_web_backend",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\CadastroUsuarios\\Edit.cshtml",
-      "TargetPath": "Views\\CadastroUsuarios\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\Usuarios\\Index.cshtml",
-      "TargetPath": "Views\\Usuarios\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\CadastroUsuarios\\Create.cshtml",
-      "TargetPath": "Views\\CadastroUsuarios\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\CadastroUsuarios\\Index.cshtml",
-      "TargetPath": "Views\\CadastroUsuarios\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\CadastroUsuarios\\Delete.cshtml",
-      "TargetPath": "Views\\CadastroUsuarios\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\Usuarios\\Details.cshtml",
-      "TargetPath": "Views\\Usuarios\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\Usuarios\\Create.cshtml",
-      "TargetPath": "Views\\Usuarios\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\CadastroUsuarios\\AccessDenied.cshtml",
-      "TargetPath": "Views\\CadastroUsuarios\\AccessDenied.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\Usuarios\\Delete.cshtml",
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\Usuarios\\Delete.cshtml",
       "TargetPath": "Views\\Usuarios\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\CadastroUsuarios\\Login.cshtml",
-      "TargetPath": "Views\\CadastroUsuarios\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\CadastroUsuarios\\Details.cshtml",
-      "TargetPath": "Views\\CadastroUsuarios\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\Usuarios\\Edit.cshtml",
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\Usuarios\\Edit.cshtml",
       "TargetPath": "Views\\Usuarios\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\CadastroUsuarios\\Create.cshtml",
+      "TargetPath": "Views\\CadastroUsuarios\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\CadastroUsuarios\\Details.cshtml",
+      "TargetPath": "Views\\CadastroUsuarios\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\Usuarios\\Create.cshtml",
+      "TargetPath": "Views\\Usuarios\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\Usuarios\\Details.cshtml",
+      "TargetPath": "Views\\Usuarios\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\Usuarios\\Index.cshtml",
+      "TargetPath": "Views\\Usuarios\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\CadastroUsuarios\\Delete.cshtml",
+      "TargetPath": "Views\\CadastroUsuarios\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\CadastroUsuarios\\Edit.cshtml",
+      "TargetPath": "Views\\CadastroUsuarios\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\CadastroUsuarios\\Index.cshtml",
+      "TargetPath": "Views\\CadastroUsuarios\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\CadastroUsuarios\\Login.cshtml",
+      "TargetPath": "Views\\CadastroUsuarios\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\CadastroUsuarios\\AccessDenied.cshtml",
+      "TargetPath": "Views\\CadastroUsuarios\\AccessDenied.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cesar\\Desktop\\PeopleSearch\\backEnd\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],
