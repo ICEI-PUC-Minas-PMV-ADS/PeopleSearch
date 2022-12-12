@@ -1,15 +1,16 @@
 let nome = document.getElementById("name-input");
 let about = document.getElementById("about-input");
 let whatSearch = document.getElementById("search-input");
+let user;
 
 document.querySelector("#submit-input").onclick = function userInput() {
-  const user = {
+   user = {
     nomeValue: nome.value,
     aboutValue: about.value,
     whatSearchValue: whatSearch.value,
   }
-  
-  console.log(user);
+  return user;
+  console.log(userInput);
 }
-
+ console.log(user);
 
